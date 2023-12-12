@@ -1,0 +1,133 @@
+.logInPage {
+  margin: 20px 0;
+  border: 1px solid rgba(0, 0, 0, 0.153);
+  padding: 50px 30px;
+  border-radius: 3px;
+
+  .login_header {
+    text-align: center;
+    .logo {
+      font-style: italic;
+      font-weight: 500;
+      font-size: 34px;
+    }
+    .logo_text {
+      font-size: 15px;
+      color: rgba(255, 255, 255, 0.559) d1d;
+      font-weight: 300;
+    }
+    .logo_btn {
+      width: 100%;
+      background: #0a58ca;
+      color: #fff;
+      border-radius: 5px;
+      font-size: 14px;
+      font-weight: 300;
+
+      svg {
+        background: #fff;
+        color: #0a58ca;
+        padding: 2px;
+      }
+    }
+  }
+  .or {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+    .or_line {
+      display: flex;
+
+      border: 1px solid rgba(0, 0, 0, 0.153);
+      width: 100%;
+    }
+    .p {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
+      color: rgb(0, 0, 0, 0.5);
+    }
+  }
+  .from {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    input {
+      font-size: 14px;
+    }
+    .form_text {
+      font-size: 14px;
+      text-align: center;
+      color: #212020a0;
+      a {
+        text-decoration: none;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+    .sing_up {
+      background: #39b44f;
+      color: #fff;
+      font-size: 15px;
+      font-weight: 600;
+      &:hover {
+        background: #39b44f91;
+      }
+    }
+  }
+
+  //   have an account
+  .have_an_account {
+    font-size: 14px;
+    text-align: center;
+    color: black;
+    font-weight: 400;
+    a {
+      font-size: 16px;
+      font-weight: 500;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+// lest item
+.last_ {
+  text-align: center;
+  .last_images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    img {
+      width: 35%;
+      height: 50px;
+    }
+  }
+}
+
+// footer css
+.footer_item {
+  padding: 100px 0;
+  text-align: center;
+  p {
+    a {
+      font-size: 14px;
+      color: #5a5b5a;
+      padding: 5px;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+    span {
+      font-size: 13px;
+      padding: 0 5px;
+    }
+  }
+}
